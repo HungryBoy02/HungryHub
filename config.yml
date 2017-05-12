@@ -1,0 +1,34 @@
+#                          #
+# #   # ####   ###   ###   #
+# #   # #   # #  ## #   #  #
+# #   # ####  # # #    #   #
+# ##### #   # # # #   #    #
+# #   # #   # ##  #  #     #
+# #   # ####   ###  #####  #
+#                          #
+# Hungry Hub Plugin, made by HungryBoy02 (HB02) #
+# V1.0 #
+Hub World: 'world'
+Welcome Message: '&4Welcome to the server!'
+Server Staff: 
+    - HungryBoy02
+    - Notch
+    - Jeb_
+Join Commands:
+    - spawn
+# to use the menu items, first specify the item, then the name, the                                                            #
+# slot it will be in on the menu (0-Menu size) and then the                                                                    #
+# command it will run when the player clicks it.                                                                               #
+# available items to use in this are:                                                                                          # 
+# Compass, DiamondSword, GoldSword, IronSword, DiamondShovel,                                                                  #
+# GoldShovel, IronShovel, GrassBlock, StoneBlock, IronBars,                                                                    #
+# EndRod, Totem, GlassBlock, and SnowBall.                                                                                     #
+# Sidenote: Items of the same type will not work correctly, they will run all commands for item type.                          #
+# Sidenote: Commands will be ran as the player, but as if they were an op.                                                     #
+# Warning: if you do not type the command correctly, the player will be left an op! (Players already ops will not loose privs) #
+Menu Items:
+    - COMPASS-Hubworld-13-spawn
+Menu Size (Must be a multiple of 9): '27'
+# Which hotbar slot to put the menu item in. (the grass) #
+# Max of 8                                               #
+Menu Item Slot: 4

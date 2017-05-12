@@ -1,0 +1,43 @@
+main: mx.x10.gamedomain.hungryhub.HungryHub
+version: 1.0
+name: HungryHub
+
+commands: 
+ gmc:
+   description: Sets user to creative
+ gms:
+   description: Sets user to survival
+ gma:
+   description: Sets user to adventure
+ gmsp:
+   description: Sets user to spectator
+ belowbedrock:
+   description: Teleports to below bedrock
+ staff:
+   description: Shows a list of server staff
+ equip:
+   description: Equips user with items
+ equipinv:
+   description: Usual equip command but with an inventory gui!
+ equipgui:
+   description: Equip command but with a gui to choose what set you get!
+ menu:
+   description: Opens the server menu
+ hhbreload:
+   description: Reloads Hugnry Hub config
+permissions:
+ hungryhub.*:
+  description: Gives access to all hungry hub commands
+  children:
+   hungryhub.equip: true
+   hungryhub.gmcmd: true
+   hungryhub.reload: true
+ hungryhub.gmcmd:
+  description: Allows commands like gmc, gms, etc...
+  default: op
+ hungryhub.equip:
+  description: Allows commands equip, equipgui, and equipinv
+  default: op
+ hungryhub.reload:
+  description: Allows command hhbreload, which reloads the hungry hub config.
+  default: op
